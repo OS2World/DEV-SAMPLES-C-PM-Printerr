@@ -1,0 +1,20 @@
+
+
+ PRINTERR
+
+ Start     Length     Name                   Class
+ 0001:0000 0016AH     PRINTERR_TEXT          CODE
+ 0001:016A 0007FH     _TEXT                  CODE
+ 0002:0000 0003EH     _DATA                  DATA
+ 0002:003E 00000H     CONST                  CONST
+ 0002:003E 00000H     _BSS                   BSS
+ 0003:0000 01292H     $$TYPES                DEBTYP
+ 0004:0000 00091H     $$SYMBOLS              DEBSYM
+ 0005:0000 00001H      SRCLINES              DEBSRC
+
+ Origin   Group
+ 0002:0   DGROUP
+
+ Address   Export                  Alias
+
+ 0001:0000 PRINTERR                PRINTERR
